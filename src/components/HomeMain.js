@@ -1,5 +1,6 @@
 import React from 'react'
-import bg from '../bg.jpg'
+import bg from '../img/bg.jpg'
+import TechStack from './TechStack'
 const HomeMain = () => {
     return (
         <>
@@ -18,11 +19,10 @@ const HomeMain = () => {
                             <img src={bg} width={400} alt='yogesh'></img>
                         </div>
                     </section>
-
-
                 </div>
-                <div className='main_bottom' >b</div>
+                <TechStack > </TechStack>
             </main >
+
         </>
     )
 }
