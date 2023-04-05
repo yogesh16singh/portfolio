@@ -89,6 +89,11 @@ header {
 .section_left h1 {
     color: #2D2E32;
     font-size: 60px;
+    display: inline-block;
+}
+
+.section_left h1 h1 {
+    color: #076a07;
 }
 
 .section_left p {
